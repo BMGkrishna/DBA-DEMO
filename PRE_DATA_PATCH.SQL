@@ -1,0 +1,6 @@
+[oracle@developmentdb scripts]$ cat  pre_data_patch.sql
+alter session set current_schema=adorb;
+set lines 200 pages 1000
+col app_url for a40
+col systimestamp for a40
+select app_url, systimestamp from adorb.tenant_preferences;
