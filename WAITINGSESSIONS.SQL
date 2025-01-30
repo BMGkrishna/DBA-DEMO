@@ -11,4 +11,4 @@ from
 where 
 WAIT_CLASS !='Idle'
 order by 
-   blocking_session;
+   blocking_session TEST;
