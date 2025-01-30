@@ -10,5 +10,5 @@ from
    Gv$session
 where 
 WAIT_CLASS !='Idle'
-order by 
+order by ;
   
